@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome To Docker Reactjs</p>
+        <p>{`Hello ${process.env.REACT_APP_NAME}`}</p>
+        <p>Welcome To Docker React js</p>
         <a
           className="App-link"
           href="https://reactjs.org"
